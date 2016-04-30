@@ -1,6 +1,6 @@
-# SudokuSolver
-Sudoku Solver C Program
-Problem Statement:
+# Sudoku Solver C Program
+
+## Problem Statement:
 Sudoku is a puzzle game played on a grid that consists of n^2 × n^2
 cells, each belonging to three groups: one of nine rows, one of
 nine columns and one of nine boxes.
@@ -17,7 +17,7 @@ cell.
 Rule 2: If there is a number which can go into only one cell, then
 assign that number to that cell.
 
-Data Structures & Functions Used:
+## Data Structures & Functions Used:
 1. Array: A 2D array of (n2 x n2) is used. Memory is allocated
 dynamically using malloc.
 2. can_place(): It checks whether the number can be placed at that
@@ -38,7 +38,7 @@ a particular cell.
 8. print_sudoku(): It prints the Sudoku puzzle.
 
 
-Approach:
+## Approach:
 1. Dynamically allocate a block of memory (n2 x n2) using a double
 pointer.
 2. Scan the input and store it into the dynamically allocated
